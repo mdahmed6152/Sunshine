@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Contact Us",
+        "description": "",
+        "id": "contact-us;verify-contact-us",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 975220500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 636987600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click On Support Option",
+            "match": {
+              "location": "ContactUs.click_On_Support_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641349000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Contact Us",
+            "match": {
+              "location": "ContactUs.click_on_Contact_Us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248152100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Contact Us Page",
+            "match": {
+              "location": "ContactUs.verify_Contact_Us_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sunshine001"
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us",
+    "description": "",
+    "id": "contact-us",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Gaming PC Deals",
+        "description": "",
+        "id": "gaming-pc-deals;verify-gaming-pc-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 316596200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404644500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Deals Option",
+            "match": {
+              "location": "GamingPCDeals.click_on_Deals_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3402859500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Gaming PC Deals",
+            "match": {
+              "location": "GamingPCDeals.click_on_Gaming_PC_Deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302180700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Gaming PC Deals Page",
+            "match": {
+              "location": "GamingPCDeals.verify_Gaming_PC_Deals_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sunshine001"
+          }
+        ]
+      }
+    ],
+    "name": "Gaming PC Deals",
+    "description": "",
+    "id": "gaming-pc-deals",
+    "keyword": "Feature",
+    "uri": "GamingPCDeals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Order Support",
+        "description": "",
+        "id": "order-support;verify-order-support",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 796014700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497626700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click On Support Option",
+            "match": {
+              "location": "ContactUs.click_On_Support_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1069201600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On Order Support",
+            "match": {
+              "location": "OrderSupport.click_On_Order_Support()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339469700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Order Support Page",
+            "match": {
+              "location": "OrderSupport.verify_Order_Support_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sunshine001"
+          }
+        ]
+      }
+    ],
+    "name": "Order Support",
+    "description": "",
+    "id": "order-support",
+    "keyword": "Feature",
+    "uri": "OrderSupport.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify User Can Login",
+        "description": "",
+        "id": "dell-signin;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431986500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch Dell \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "DellLogin.launch_Dell(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2652862400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Signin Option and Click on Signin",
+            "match": {
+              "location": "DellLogin.click_Signin_Option_and_Click_on_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 336641600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Username and Enter Password and Click Signin Button",
+            "match": {
+              "location": "DellLogin.enter_Username_and_Enter_Password_and_Click_Signin_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2052103000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Profile Page",
+            "match": {
+              "location": "DellLogin.verify_Profile_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sunshine001"
+          }
+        ]
+      }
+    ],
+    "name": "Dell Signin",
+    "description": "",
+    "id": "dell-signin",
+    "keyword": "Feature",
+    "uri": "Signin.feature"
+  }
+]
