@@ -30,11 +30,15 @@ public class HomePageLocator extends ParentBase {
 	@FindBy(how=How.XPATH, using="//span[text()='Support']")
 	public WebElement SupportOption;
 	
-	@FindBy(how=How.CSS, using="a[href='//www.dell.com/support/contents/en-us/category/Contact-Information'][data-tier-id='3']")
+	@FindBy(how=How.LINK_TEXT, using="Contact Us")
 	public WebElement ContactUs;
 	
 	@FindBy(how=How.XPATH, using="//a[text()='Order Support']")
 	public WebElement OrderSupport;
+	
+	@FindBy(how=How.LINK_TEXT, using="Support Home")
+	public WebElement SupportHome;
+
 	
 	
 }

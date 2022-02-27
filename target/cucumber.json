@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1101876700,
+              "duration": 806338900,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 480736400,
+              "duration": 351968000,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 704490500,
+              "duration": 587537800,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 241511600,
+              "duration": 315040000,
               "status": "passed"
             },
             "line": 9,
@@ -92,7 +92,7 @@
         "steps": [
           {
             "result": {
-              "duration": 286045400,
+              "duration": 306561200,
               "status": "passed"
             },
             "line": 6,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 274938200,
+              "duration": 443823000,
               "status": "passed"
             },
             "line": 7,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 1534622900,
+              "duration": 1475770000,
               "status": "passed"
             },
             "line": 8,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 537940100,
+              "duration": 241510300,
               "status": "passed"
             },
             "line": 9,
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 681337600,
+              "duration": 316099600,
               "status": "passed"
             },
             "line": 6,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 425878300,
+              "duration": 406774100,
               "status": "passed"
             },
             "line": 7,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 1135551200,
+              "duration": 874036600,
               "status": "passed"
             },
             "line": 8,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 339386100,
+              "duration": 307699300,
               "status": "passed"
             },
             "line": 9,
@@ -243,19 +243,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 5,
-        "name": "Verify User Can Login",
+        "line": 4,
+        "name": "Verify User Can Enter Support Home Page",
         "description": "",
-        "id": "dell-signin;verify-user-can-login",
+        "id": "support-home;verify-user-can-enter-support-home-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 228977900,
+              "duration": 450801300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Launch Dell \"\u003cURL\u003e\"",
             "match": {
               "arguments": [
@@ -270,53 +270,53 @@
           },
           {
             "result": {
-              "duration": 2322704600,
+              "duration": 158789300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click On Support Option",
+            "match": {
+              "location": "ContactUs.click_On_Support_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488437600,
               "status": "passed"
             },
             "line": 8,
-            "name": "Click Signin Option and Click on Signin",
+            "name": "Click On Support Home",
             "match": {
-              "location": "DellLogin.click_Signin_Option_and_Click_on_Signin()"
+              "location": "SupportHome.click_On_Support_Home()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 362598800,
+              "duration": 426997800,
               "status": "passed"
             },
             "line": 9,
-            "name": "Enter Username and Enter Password and Click Signin Button",
+            "name": "Verify Support Home Page",
             "match": {
-              "location": "DellLogin.enter_Username_and_Enter_Password_and_Click_Signin_Button()"
+              "location": "SupportHome.verify_Support_Home_Page()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1786630400,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Verify Profile Page",
-            "match": {
-              "location": "DellLogin.verify_Profile_Page()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 3,
             "name": "@Sunshine001"
           }
         ]
       }
     ],
-    "name": "Dell Signin",
+    "name": "Support Home",
     "description": "",
-    "id": "dell-signin",
+    "id": "support-home",
     "keyword": "Feature",
-    "uri": "Signin.feature"
+    "uri": "SupportHome.feature"
   }
 ]

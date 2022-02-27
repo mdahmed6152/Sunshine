@@ -7,7 +7,7 @@
         <methods>
           <include name="lauchURL"/>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="3"/>
+          <include name="feature" invocation-numbers="3 4"/>
           <include name="closeURL"/>
           <include name="tearDownClass"/>
         </methods>

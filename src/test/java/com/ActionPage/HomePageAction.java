@@ -43,6 +43,15 @@ public class HomePageAction extends ParentBase {
 		
 	}
 	
+   public void ClickOnSupportHome () {
+		
+		homepageLocator.SupportHome.click();
+		
+		
+	}
+	
+	
+	
 	
 
 }

@@ -1,7 +1,7 @@
 Feature: Dell Signin
 
 
-@Sunshine001
+
 Scenario: Verify User Can Login
 
 Given Launch Dell "<URL>"
